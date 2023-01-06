@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+}
+.loader-container{
+    width: 100%;
+    height: 100vh;
+    background-color: rebeccapurple;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.loader{
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.dot{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.dot-1{
+    background-color: red;
+}
+.dot-2{
+    background-color: green;
+}
+.dot-3{
+    background-color: blue;
+}
