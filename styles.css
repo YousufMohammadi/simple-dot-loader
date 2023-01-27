@@ -19,7 +19,7 @@
     align-items: center;
     flex-wrap: wrap;
     margin: 0 auto;
-    animation: loader 2s forwards infinite;
+    animation: loader 3s forwards infinite ease-out;
     transition: all 1s;
 }
 /* .loading{
